@@ -1,0 +1,177 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lin1">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sandesh" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breaking NEWS"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modi Smashed the Opposition Party"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:id="@+id/viw1"
+            android:layout_below="@+id/lin1"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel2"
+            android:layout_below="@+id/viw1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOP NEWS"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/b"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 નવેમ્બરે માર્ચ કરી PoKમાં પ્રવેશવાની ચીમકીઃ PoK પૂર્વ CM"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel3"
+            android:layout_below="@+id/rel2">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="નિયંત્રણ રેખા સુધી માર્ચ કરીને જમ્મૂ કાશ્મીરની એલઓસી ઓળંગી ને PoKમાં ઘૂસવાનું એલાન કર્યુ છે."
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel4"
+            android:layout_below="@+id/rel2">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="નિયંત્રણ રેખા સુધી માર્ચ કરીને જમ્મૂ કાશ્મીરની એલઓસી ઓળંગી ને PoKમાં ઘૂસવાનું એલાન કર્યુ છે."
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel5"
+            android:layout_below="@+id/rel4">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/f"
+                android:id="@+id/imageView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" પઠાનકોટ હુમલાના આરોપી મસૂદ અઝહરને છાવરવાનો ચીનનો વધુ એક પ્રયાસ
+- UNમાં મસૂદ મામલે ભારતને સમર્થન આપવાનો સ્પષ્ટ ઇન્કાર
+ચીને ભારતની સામે એક નવું નિવેદન આપી ફરી એકવાર પાકિસ્તાનનો સાથ આપતા આતંકવાદીઓને"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="POPULAR NEWS"
+           android:id="@+id/txt5"
+           android:layout_below="@+id/rel5"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel6"
+            android:layout_below="@+id/txt5">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/f"
+                android:id="@+id/imageView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" બુરહાન વાની ફ્રીડમ ફાઈટર હતો
+- ભારત આઝાદીની લડતને આતંકવાદની લડાઈમાં ખપાવે છે
+કાશ્મીરને સમર્થન આપવા માટે દુનિયાની કોઈ તાકાત અમને રોકી નહી શકેનો હુંકાર કર્યો છે"
+                android:id="@+id/textView7"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView6"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vishal.master_lok">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LOK PRAHARI"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".News_show"
+            android:label="@string/title_activity_news_show" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_news_show"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".QuickLOGIN"></activity>
+        <activity android:name=".Video"></activity>
+    </application>
+
+</manifest>
