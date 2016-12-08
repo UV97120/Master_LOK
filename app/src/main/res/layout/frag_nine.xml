@@ -19,7 +19,7 @@
             android:clickable="true"
             android:focusable="false"
             android:layout_height="50dip"
-            android:src="@drawable/flow"/>
+            android:src="@drawable/triple_dot"/>
 
     </LinearLayout>
 

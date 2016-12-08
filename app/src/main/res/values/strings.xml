@@ -71,4 +71,7 @@
     <string name="back">BACK</string>
     <string name="title_activity_news_show">News_show</string>
 
+<string name="cardview_radius_seekbar_text">Radius</string>
+<string name="cardview_elevation_seekbar_text">Elevation</string>
+
 </resources>

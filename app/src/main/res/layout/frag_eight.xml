@@ -38,7 +38,7 @@
                 android:layout_gravity="right"
 
                 android:clickable="true"
-                android:src="@drawable/flow" />
+                android:src="@drawable/triple_dot" />
 
             <TextView
                 android:id="@+id/row_install_textView1"

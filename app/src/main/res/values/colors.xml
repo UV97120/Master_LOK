@@ -12,5 +12,6 @@
     <color name="white_greyish">#F5F5F5</color>
     <color name="button_selectorcolor">#BDBDBD</color>
 
+    <color name="cardview_initial_background">#71C3DE</color>
 
 </resources>
